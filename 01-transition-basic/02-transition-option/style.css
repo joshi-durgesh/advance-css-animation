@@ -1,0 +1,32 @@
+/* 
+Transition options
+transition-timing-function:how the change in the property will occur
+
+ease:the change starts slow then go faster then finishes slow
+
+liner:the change occurs at the same rate
+
+ease-in : the change starts slow then go faster before the end
+
+ease-out : the change starts fast then slows down before the end
+
+ease-in-out : the change starts slow then go faster then finishes slow
+*/
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: blue;
+  height: 5rem;
+  width: 15rem;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
