@@ -27,6 +27,26 @@ ease-in-out : the change starts slow then go faster then finishes slow
   border: none;
   color: #fff;
   font-weight: bold;
-  transition-property: background-color;
-  transition-duration: 2s;
+  transition-property: translate();
+  transition-duration: 3s;
+}
+
+.btn:hover {
+  transform: translate(900px, 0);
+}
+
+.btn-1 {
+  transition-timing-function: ease;
+}
+.btn-2 {
+  transition-timing-function: linear;
+}
+.btn-3 {
+  transition-timing-function: ease-in;
+}
+.btn-4 {
+  transition-timing-function: ease-out;
+}
+.btn-5 {
+  transition-timing-function: ease-in-out;
 }
