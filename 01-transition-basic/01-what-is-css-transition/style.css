@@ -1,0 +1,14 @@
+.btn-transition {
+  font-size: 18px;
+  background-color: blue;
+  padding: 1rem 3rem;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+.btn-transition:hover {
+  background-color: red;
+}
