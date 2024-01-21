@@ -5,8 +5,15 @@
   border: none;
   color: #fff;
   font-weight: bold;
-  transition-property: background-color;
-  transition-duration: 2s;
+
+  /* transition-property: background-color; */
+  /* transition-duration: 2s; */
+
+  /* delay in transition */
+  /* transition-delay: 2s; */
+
+  /* shorthand for transition */
+  transition: background-color 2s ease 2s;
 }
 
 .btn-transition:hover {
