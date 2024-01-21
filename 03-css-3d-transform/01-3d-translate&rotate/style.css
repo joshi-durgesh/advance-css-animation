@@ -1,0 +1,24 @@
+/* 
+to create 3d environment we need to createa perspective
+perspective is the distance of object from our eyes
+if the transform value is bigger than the perspective value then the object will disapear form the screen
+
+*/
+
+.img {
+  margin: 10rem auto;
+  display: block;
+  transition: transform 2s;
+}
+
+body {
+  perspective: 1000px;
+}
+
+#img-3d:hover {
+  /* transform: translateZ(300px); */
+  /* rotateZ is default rotate */
+  /* transform: rotateZ(60deg); */
+  transform: rotateX(60deg);
+  /* transform: rotateY(60deg); */
+}
