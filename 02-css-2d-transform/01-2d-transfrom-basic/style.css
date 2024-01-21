@@ -45,3 +45,37 @@
   /* or */
   transform: scale(1.5);
 }
+
+#rotate {
+  transition: transform 2s;
+}
+
+#rotate:hover {
+  /* rotate required value in deg turn grad */
+  /* transform: rotate(87deg); */
+  /* transform: rotate(1turn); */
+  transform: rotate(300grad);
+}
+
+#skew {
+  transition: transform 2s;
+}
+
+#skew:hover {
+  /* transform: skewX(30deg);
+  transform: skewY(50deg); */
+  /* shorthand */
+  transform: skew(20deg, 30deg);
+}
+
+#origin {
+  transition: transform 2s;
+  /* 
+  transform origin to set pevote point from where the fransform start
+   */
+  transform-origin: top;
+}
+
+#origin:hover {
+  transform: rotate(120deg);
+}
